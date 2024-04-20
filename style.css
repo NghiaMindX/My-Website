@@ -2,4 +2,184 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+/* ========== Thanh Navigation ========== */
+.navigation {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.nav-item:hover {
+    background-color: #cccccc;
+    color: black;
+}
+
+.nav-search {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.nav-search:hover {
+    background-color: #f44336;
+}
+
+/* ========== Phần Slide Show ========== */
+.slideshow {
+    margin-top: 42px;
+}
+.slides {
+    width: 100%;
+}
+
+
+/* ========== Phần About ========== */
+.about {
+    max-width: 768px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.title {
+    margin-top: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 30px;
+}
+.subtitle {
+    color: gray;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 20px;
+    text-align: center;
+}
+.description {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+/* ========== Phần Band Members ========== */
+.members {
+    max-width: 768px;
+    padding: 0 20px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.member-container {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.member-item {
+    text-align: center;
+}
+.member-item img {
+    width: 130px;
+    margin-top: 12px;
+    border-radius: 4px;
+}
+
+/* ========== Phần Contact Info ========== */
+.contact {
+    max-width: 768px;
+    padding: 0 20px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.contact-container {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-item {
+    width: 48%;
+}
+.contact-container li {
+    list-style: none;
+    background-image: url('./icons/location.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    padding: 4px 30px;
+}
+.contact-container li:nth-child(2) {
+    background-image: url('./icons/phone.svg');
+}
+.contact-container li:nth-child(3) {
+    background-image: url('./icons/mail.svg');
+}
+
+.input-container {
+    display: flex;
+}
+.contact-container input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid gray;
+    margin-top: 8px;
+    font-size: 16px;
+}
+.contact-container button {
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    float: right;
+}
+.contact-container button:hover {
+    background-color: #cccccc;
+    color: black;
+    cursor: pointer;
+}
+/* ========== Phần Map ========== */
+.map-image {
+    width: 100%;
+}
+
+
+/* ========== Phần Footer ========== */
+.footer {
+    height: 160px;
+}
+.social-media {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.social-link {
+    margin: 0 2px;
+    color: gray;
+}
+.social-link:hover {
+    opacity: 0.7;
+}
+.footer-author {
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 6px;
 }
